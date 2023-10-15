@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <title>Qual é o número?</title>
+</head>
+
+<body>
+   <!-- HTML -->
+   <main class="main">
+      <section class="game">
+         <img src="img/ifsp.jpg" alt="">
+         <h1>Qual é o número?</h1>
+         <div class="status" id="status"> <h3>Faça sua tentativa!</h3></div>
+         <br>
+         <div class="tentativa" id="tentativa"><h3>Erros: 0</h3></div><br><br>
+         <label><h3>Nome:</h3>
+            <input type="text" name="nome" id="nome" required> <button id="nomeverifica">Enviar</button>
+         </label>
+         <form class="form" id="form"> <br>
+            <label><h3>Digite um número:</h3>
+               <input type="number" name="chute" id="chute" required>
+            </label> 
+            <button id="btnVerifica">Verificar</button> 
+            <br>
+           
+         </form>
+      </section>
+   </main>
+   <footer id="area-rodape" >
+      &copy; Rafaella Gasparetto_2info
+  </footer>
+   <script src="js/script.js">
+   </script>
+</body>
+
+</html>
